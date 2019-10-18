@@ -1,5 +1,5 @@
 {
-  "name": "@ArkansasResearchCenter/vue-cli-plugin-stylelint",
+  "name": "ArkansasResearchCenter/vue-cli-plugin-stylelint",
   "private": true,
   "version": "1.1.2",
   "description": "stylelint plugin for vue-cli",
