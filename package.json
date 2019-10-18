@@ -1,5 +1,6 @@
 {
-  "name": "@ascendancyy/vue-cli-plugin-stylelint",
+  "name": "@ArkansasResearchCenter/vue-cli-plugin-stylelint",
+  "private": true,
   "version": "1.1.2",
   "description": "stylelint plugin for vue-cli",
   "main": "index.js",
@@ -13,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ascendancyy/vue-cli-plugin-stylelint.git"
+    "url": "git+https://github.com/ArkansasResearchCenter/vue-cli-plugin-stylelint.git"
   },
   "keywords": [
     "vue",
@@ -23,9 +24,9 @@
   "author": "Stephen Lam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ascendancyy/vue-cli-plugin-stylelint/issues"
+    "url": "https://github.com/ArkansasResearchCenter/vue-cli-plugin-stylelint/issues"
   },
-  "homepage": "https://github.com/ascendancyy/vue-cli-plugin-stylelint#readme",
+  "homepage": "https://github.com/ArkansasResearchCenter/vue-cli-plugin-stylelint#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "inquirer": "^6.2.1",
@@ -36,8 +37,8 @@
     "stylelint-webpack-plugin": "^1.0.2"
   },
   "devDependencies": {
-    "@vue/cli": "^3.3.0",
-    "@vue/cli-test-utils": "^3.3.0",
+    "@vue/cli": "^4.0.4",
+    "@vue/cli-test-utils": "^4.0.4",
     "cross-env": "^5.2.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
