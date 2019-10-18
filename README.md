@@ -1,7 +1,3 @@
-# @ascendancyy/vue-cli-plugin-stylelint
-
-> stylelint plugin for vue-cli
-
 ## Injected commands
 
 - **`vue-cli-service lint:style`**
@@ -40,12 +36,9 @@ module.exports = {
 ## Installing in an already created project
 
 ```
-npm install -D @ascendancyy/vue-cli-plugin-stylelint
-vue invoke @ascendancyy/vue-cli-plugin-stylelint
+npm install -D ArkansasResearchCenter/vue-cli-plugin-stylelint
+vue invoke ArkansasReserachCenter/vue-cli-plugin-stylelint
 ```
-
-> There is also a shorthand to invoke the plugin  
-> `vue invoke @ascendancyy/stylelint`
 
 ## webpack-chain Injections
 

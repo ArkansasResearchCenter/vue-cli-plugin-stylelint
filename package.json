@@ -4,7 +4,7 @@
   "description": "stylelint plugin for vue-cli",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./**/*.js ./*.js",
+    "lint": "eslint './**/*.js'",
     "jest": "cross-env VUE_CLI_TEST=true jest --env=node",
     "test": "npm run lint && npm run jest"
   },
@@ -31,16 +31,18 @@
     "inquirer": "^6.2.1",
     "javascript-stringify": "^1.6.0",
     "micromatch": "^3.1.10",
-    "stylelint": "^9.10.1",
+    "stylelint": "^11.1.1",
     "stylelint-codeframe-formatter": "^1.0.4",
-    "stylelint-webpack-plugin": "^0.10.5"
+    "stylelint-webpack-plugin": "^1.0.2"
   },
   "devDependencies": {
-    "@ascendancyy/eslint-config-eva": "^2.0.2",
     "@vue/cli": "^3.3.0",
     "@vue/cli-test-utils": "^3.3.0",
     "cross-env": "^5.2.0",
-    "eslint": "^4.19.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
     "jest": "^22.4.4"
   }
 }
